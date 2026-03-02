@@ -1,33 +1,33 @@
-/// Switch
+/// Switch__ Without___Break
 // 0 - Sunday
 //1 - Monday
 //2 - Tuesday
 
 
-let day = 2;
+let day = 8;
 
 switch (day) {
     case 0:
         console.log("Sunday Rest day");
-        break;
+    //   break;
     case 1:
         console.log("Monday - Sprint Planing");
-        break;
+    // break;
     case 2:
         console.log("Tuesday - Development");
-        break;
+    //break;
     case 3:
         console.log("Wednesday - Code review");
-        break;
+    //break;
     case 4:
         console.log("Thrusday - Testing");
-        break;
+    //break;
     case 5:
         console.log("Friday - Deployment & Retro call");
-        break;
+    //break;
     case 6:
         console.log("Saturday - Sleeping day");
-        break;
+    //break;
     default:
-        console.log("Invalid day value");
+        console.log("Invalid day");
 }
