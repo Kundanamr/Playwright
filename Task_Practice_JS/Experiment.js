@@ -21,7 +21,7 @@
 
 let m = 7
 let i = 1
-while (m <= ) {
+while (m <= 7) {
 
     console.log(m = m * i, i++)
 }
