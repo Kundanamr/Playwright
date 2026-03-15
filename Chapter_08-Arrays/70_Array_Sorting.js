@@ -14,8 +14,8 @@ let nums = [10, 1, 21, 2];
 nums.sort(); // [1, 10, 2, 21] ← WRONG (compares as strings!)
 console.log(nums);
 
-nums.sort((a, b) => a - b); // Ascending
-console.log(nums);
+nums.sort((a, b) => a - b);
+console.log(nums);  ///[ 1, 2, 10, 21 ] <- Ascending
 
 nums.sort((a, b) => b - a);
-console.log(nums); // [21, 10, 2, 1] ← descending
+console.log(nums); // [21, 10, 2, 1] ← Descending
